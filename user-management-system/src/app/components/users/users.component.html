@@ -1,1 +1,18 @@
-<p>users works!</p>
+<main class="row justify-content-center">
+  <div class="col-8 mt-3">
+    <table class="table table-striped">
+      <thead class="text-light bg-dark">
+        <th>ID</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>PHONE</th>
+      </thead>
+      <tbody *ngFor="let user of users$ | async">
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+      </tbody>
+    </table>
+  </div>
+</main>
