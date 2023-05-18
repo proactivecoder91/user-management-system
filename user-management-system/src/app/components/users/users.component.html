@@ -1,5 +1,5 @@
 <section class="row justify-content-center mt-3">
-  <button [routerLink]="['/addUser']" class="col-1 btn btn-primary text-light">
+  <button [routerLink]="['/addUser']" class="col-1 btn btn-dark text-success">
     Add User (+)
   </button>
 </section>
@@ -12,6 +12,7 @@
         <th>NAME</th>
         <th>EMAIL</th>
         <th>PHONE</th>
+        <th>ACTION</th>
       </thead>
       <tbody *ngFor="let user of users$ | async">
         <td>
@@ -20,6 +21,12 @@
         <td>{{ user.name }}</td>
         <td>{{ user.email }}</td>
         <td>{{ user.phone }}</td>
+        <button
+          (click)="deleteUser(user.id)"
+          class="btn btn-dark text-danger m-1"
+        >
+          Delete
+        </button>
       </tbody>
     </table>
   </div>

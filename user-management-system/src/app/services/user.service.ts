@@ -21,4 +21,8 @@ export class UserService {
     return this._http.post<User>(this.url,obj);
   }
 
+  deleteUser(id:number){
+    return this._http.delete(this.url+"/"+id)
+  }
+
 }
