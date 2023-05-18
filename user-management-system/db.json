@@ -4,31 +4,48 @@
       "id": 1,
       "name": "Cristiano",
       "email": "cristiano@realmadrid.com",
-      "phone": 9898989898
+      "phone": 9898989898,
+      "age": 37,
+      "bio": "Cristiano Ronaldo, a football phenom, Born in Madeira, Portugal, he found his home .His speed and skill astound, a true legend, With countless goals, his records transcend."
     },
     {
       "id": 2,
       "name": "Lionel",
       "email": "lionel@barca.com",
-      "phone": 8989898989
+      "phone": 8989898989,
+      "age": 35,
+      "bio": "Lionel Messi, a maestro on the field, Hailing from Rosario, his talent revealed. Magical footwork, precision in each touch,His vision and goals leave fans in awe so much."
     },
     {
       "id": 3,
       "name": "Bukoyo",
       "email": "bukoyo@arsenal.com",
-      "phone": 2020202020
+      "phone": 2020202020,
+      "age": 21,
+      "bio": "A rising star in English football, Bukayo Saka showcases immense talent as a versatile midfielder. With exceptional dribbling, creativity, and a keen eye for goal, he is a key player for Arsenal. Saka's speed, skill, and work ethic make him a valuable asset on and off the field."
     },
     {
       "id": 4,
       "name": "Thomas",
       "email": "thomas@bayern.com",
-      "phone": 8282828282
+      "phone": 8282828282,
+      "age": 33,
+      "bio": "Thomas Müller, a German football maestro, is a versatile player known for his intelligence and positional play. With his exceptional vision, impeccable timing, and clinical finishing, Müller is a vital asset to Bayern Munich and the German national team. His ability to create opportunities and score crucial goals makes him a true game-changer."
     },
     {
       "id": 5,
       "name": "Diego",
       "email": "diego@inter.com",
-      "phone": 1011101110
+      "phone": 1011101110,
+      "age": 43,
+      "bio": "Diego Milito, an Argentine football legend, is renowned for his lethal goal-scoring ability and impeccable technique. Known for his elegant style and clinical finishing, Milito has left an indelible mark on Inter Milan and the Argentine national team. His ability to rise to the occasion in big matches and deliver crucial goals has solidified his place among the greats of the game."
+    },
+    {
+      "name": "Paolo",
+      "email": "maldini@acmilan.com",
+      "phone": "7070707070",
+      "bio": "One of the greatest defenders to play for AC Milan.",
+      "id": 6
     }
   ]
 }
