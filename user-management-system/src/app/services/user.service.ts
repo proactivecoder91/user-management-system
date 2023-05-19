@@ -25,4 +25,8 @@ export class UserService {
     return this._http.delete(this.url+"/"+id)
   }
 
+  editUser(obj:User){
+    return this._http.put<User>(this.url+"/"+obj.id+"/",obj);
+  }
+
 }

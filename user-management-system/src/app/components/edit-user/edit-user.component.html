@@ -1,0 +1,30 @@
+<button [routerLink]="['/']" class="mt-3 btn btn-light">< Back</button>
+<h3 class="text-center">Edit Users</h3>
+<section class="row justify-content-center">
+  <section class="card col-8 p-3">
+    <form [formGroup]="userForm">
+      <input class="form-control" formControlName="id" /><br />
+      <input
+        class="form-control"
+        placeholder="Enter name"
+        formControlName="name"
+      /><br />
+      <input
+        class="form-control"
+        placeholder="Enter email"
+        formControlName="email"
+      /><br />
+      <input
+        class="form-control"
+        placeholder="Enter phone"
+        formControlName="phone"
+      /><br />
+      <input
+        class="form-control"
+        placeholder="Enter bio"
+        formControlName="bio"
+      /><br />
+      <button class="btn btn-primary" (click)="editUser()">Edit Details</button>
+    </form>
+  </section>
+</section>

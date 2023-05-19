@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { UsersComponent } from './components/users/users.component';
 import { UserComponent } from './components/user/user.component';
 import { AddUserComponent } from './components/add-user/add-user.component';
+import { EditUserComponent } from './components/edit-user/edit-user.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AddUserComponent } from './components/add-user/add-user.component';
     HeaderComponent,
     UsersComponent,
     UserComponent,
-    AddUserComponent
+    AddUserComponent,
+    EditUserComponent
   ],
   imports: [
     BrowserModule,
